@@ -41,7 +41,7 @@
             str.append("</thead>");
             str.append("<tbody>");
             while (rs.next()) {
-                str.append("<tr style='background-color : #E0FFFF'>");
+                str.append("<tr style='background-color : #12a5b0'>");
                 str.append("<td>" + rs.getString("tb_manage_data_product_sim.sim_id") + "</td>");
                 str.append("<td>" + rs.getString("tb_manage_data_product_type_sim.sim_type") + "</td>");
                 str.append("<td>" + rs.getString("tb_manage_data_product_sim.sim") + "</td>");

@@ -20,7 +20,7 @@
 
 <form id="manage_data_major">
     <legend>ข้อมูลลูกค้า(ซิมการ์ด)</legend>
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td>ชื่อ</td>
             <td><input type="text" name="major_name" id="major_name" class="input-large" style="margin: 3px"></td>

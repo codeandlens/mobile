@@ -247,7 +247,7 @@
     </div>
 
 
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td colspan="2">เลขที่ขาย</td>
             <td><input type="text" name="sale_id" id="sale_id" class="input-mini" style="padding: 5px;width: 60px;font-size: 15px ;margin: 3px ; background-color: #ffffff ; color: #000 ; width: 100px ; height: 38px"  value="SN<%=session.getAttribute("i")%>">&nbsp;&nbsp;&nbsp;&nbsp;</td>

@@ -271,7 +271,7 @@ public class manage_data_product_mobile extends HttpServlet {
                 if (mobile_id_get.length() == 3) {
                     String mobile_id = (mobile_id_get.charAt(2)) + "";
                     str.append("<tr style='background-color : #ffffff'>");
-                    str.append("<td><div class='switch demo1'><input type = 'checkbox' id='select' name='select' value ='" + rs.getString("tb_manage_data_product_mobile.mobile_id") + "'><label></label></div></td>");
+                    str.append("<td><div class='checkbox'><input type = 'checkbox' id='select' name='select' value ='" + rs.getString("tb_manage_data_product_mobile.mobile_id") + "'><label></label></div></td>");
                     str.append("<td>" + rs.getString("tb_manage_data_product_mobile.mobile_id") + "</td>");
                     str.append("<td>" + rs.getString("tb_manage_data_product_type_mobile.mobile_type") + "</td>");
                     str.append("<td>" + rs.getString("tb_manage_data_product_mobile.mobile") + "</td>");

@@ -154,16 +154,16 @@
          session.setAttribute("image", "");
          */
     %>
-            location.href = "index.jsp";
-        }
+        location.href = "index.jsp";
+    }
 
 
 </script>
 
 
-<div class="navbar" style="border: #000 1px solid" >
+<div class="navbar" style="border: #1ba7b4 2px solid" >
 
-    <div class="container" style="width: auto ; background-color:#3B5998 ">
+    <div class="container" style="width: auto ; background-color:skyblue">
         <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -173,21 +173,21 @@
             <ul class="nav" style="padding-left: 0px" >
                 <!--หน้าหลัก-->
                 <li>
-                    <a id="home" href="home.jsp"><span><img src="img/home.png" width="25" height="25"><strong id="home3">หน้าหลัก</strong></span></a>
+                    <a id="home" href="home.jsp"><span><img src="img/Home.png" align="center" width="25" height="25"><strong id="home3"> หน้าหลัก</strong></span></a>
                 </li>
 
                 <!--ขาย-->
                 <li>
-                    <a id="sale" id="sale" onclick="loadContent('system/sale/sale.jsp')"><span><img src="img/sale.png" width="25" height="25"><strong>ขาย</strong></span></a>
+                    <a id="sale" id="sale" onclick="loadContent('system/sale/sale.jsp')"><span><img src="img/sale.png" align="center" width="25" height="25"> <strong>ขาย</strong></span></a>
                 </li>
 
                 <!--รายงาน-->
                 <li>
-                    <a id="report" id="report" onclick="loadContent('system/report/report_import_data.jsp')"><span><img src="img/report.png" width="25" height="25"><strong>รายงาน</strong></span></a>
+                    <a id="report" id="report" onclick="loadContent('system/report/report_import_data.jsp')"><span><img src="img/report.png" align="center" width="25" height="25"><strong> รายงาน</strong></span></a>
                 </li>
                 <li id="stock" class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown">
-                        <span><img src="img/stock.png" width="25" height="25"><strong>คลังสินค้า</strong></span>
+                        <span><img src="img/stock.png" align="center" width="25" height="25"> <strong>คลังสินค้า</strong></span>
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -206,7 +206,7 @@
                 <!--ตั้งค่า-->
                 <li class="dropdown">
                     <a id="manage" class="dropdown-toggle" data-toggle="dropdown" >
-                        <span><img src="img/manage.png" width="25" height="25"><strong>ตั้งค่าพื้นฐาน</strong></span>
+                        <span><img src="img/manage.png" align="center" width="25" height="25"> <strong>ตั้งค่าพื้นฐาน</strong></span>
                         <b class="caret"></b>
                     </a>
 
@@ -221,34 +221,10 @@
                         <li>
                             <a onclick="loadContent('system/manage/manage_data_level.jsp')"><img src="img/manage_data_level.png" width="16" height="16">&nbsp;ระดับผู้ใช้งาน</a>
                         </li>
-                       <li>
+                        <li>
                             <a onclick="loadContent('system/manage/manage_data_user.jsp')"><img src="img/manage_data_user.png" width="16" height="16">&nbsp;ผู้ใช้งานระบบ</a>
                         </li>
-                        
-                        <!--
-                        <li>
-                            <a onclick="loadContent('system/manage/manage_data_unit.jsp')"><img src="img/manage_data_unit.png" width="16" height="16">&nbsp;หน่วยนับสินค้า</a>
-                        </li> -->
-                        <!-- <li>
-                             <a onclick="loadContent('system/manage/manage_data_status.jsp')"><img src="img/manage_data_status.png" width="16" height="16">&nbsp;สถานะการซ่อม</a>
-                         </li> -->
-                        
 
-
-                        <!--<li class="dropdown-submenu">
-                            <a class="dropdown-toggle" data-toggle="dropdown" >
-                                <img src="img/manage_data_topic_repair.png" width="16" height="16">&nbsp;หัวข้อการซ่อม
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a onclick="loadContent('system/manage/manage_data_topic_repair_mobile.jsp')"><img src="img/mobile.png" width="16" height="16">&nbsp;โทรศัพท์</a>
-                                </li>
-                                <li>
-                                    <a onclick="loadContent('system/manage/manage_data_topic_repair_other_tool.jsp')"><img src="img/other_tool.png" width="16" height="16">&nbsp;อุปกรณ์เสริม</a>
-                                </li>
-                            </ul>
-                        </li>-->
-                       
                         <li class="dropdown-submenu">
                             <a class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="img/manage_data_product_type.png" width="16" height="16">&nbsp;ประเภทสินค้า
@@ -272,12 +248,7 @@
                         </li>
                     </ul>
                 </li>
-                <!--คลังสินค้า-->
 
-                <!--
-                <form class="navbar-search pull-left" action="">
-                    <input class="search-query span2" type="text" placeholder="ค้นหา" style="width: 200px">
-                </form> -->
             </ul>
 
 
@@ -297,7 +268,6 @@
 
 <!--กำหนดสิทธิ์-->
 <%
-
     if (session.getAttribute("access").equals("1")) {
 %>
 <script type="text/javascript">

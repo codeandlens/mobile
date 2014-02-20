@@ -46,7 +46,7 @@
             <div class="row-fluid">
                 <!--เนื้อหา-->
                 <div class="span12">
-                    <div class="well">
+                    <div class="well" style="background-color: skyblue" >
                         <div id="content" style="color:#000" >
                             ยินดีต้อนรับ
                     </div>   

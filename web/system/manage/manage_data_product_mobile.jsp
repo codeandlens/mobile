@@ -173,7 +173,7 @@
     <input type="button" class="btn-info btn-medium" value="แสดง" id="show">&nbsp;<input type="button" class="btn-info btn-medium" value="ซ่อน" id="hide">
     <div id="show_data_product_mobile">
     </div>
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td>รหัสสินค้า</td>
             <td colspan="2"><input type="text" name="mobile_id" id="mobile_id" class="input-mini" style="padding: 5px;width: 60px;font-size: 15px ;margin: 3px ; background-color: orange ; color: #000;  height: 38px"  value="PM<%=session.getAttribute("i")%>"></td>

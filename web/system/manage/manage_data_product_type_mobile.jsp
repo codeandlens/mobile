@@ -88,7 +88,7 @@
     <input type="button" class="btn-info btn-medium" value="แสดง" id="show">&nbsp;<input type="button" class="btn-info btn-medium" value="ซ่อน" id="hide">
     <div id="show_data_product_type_mobile">
     </div>
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td><input type="hidden" name="mobile_type_id" id="mobile_type_id" class="input-large" style="margin: 3px"></td>
         </tr>

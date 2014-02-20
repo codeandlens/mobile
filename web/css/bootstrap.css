@@ -1,4 +1,4 @@
-t@import url('//fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
+@import url('//fonts.googleapis.com/css?family=Lobster|Cabin:400,700');
 
 /*!
  * Bootstrap v2.3.2
@@ -2041,7 +2041,7 @@ table {
 }
 
 .table .table {
-  background-color: #003f4;
+  background-color: skyblue;
 }
 
 .table-condensed th,
@@ -2964,12 +2964,12 @@ table th[class*="span"],
 .dropdown-submenu:focus > a {
   color: #ffffff;
   text-decoration: none;
-  background-color: #a41c26;
-  background-image: -moz-linear-gradient(top, #ad1d28, #971923);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ad1d28), to(#971923));
-  background-image: -webkit-linear-gradient(top, #ad1d28, #971923);
-  background-image: -o-linear-gradient(top, #ad1d28, #971923);
-  background-image: linear-gradient(to bottom, #ad1d28, #971923);
+  background-color: #1cafbd;
+  background-image: -moz-linear-gradient(top, #1cafbd, #5bc0de);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#1cafbd), to(#5bc0de));
+  background-image: -webkit-linear-gradient(top, #1cafbd, #5bc0de);
+  background-image: -o-linear-gradient(top, #1cafbd, #5bc0de);
+  background-image: linear-gradient(to bottom, #1cafbd, #5bc0de);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ff971923', GradientType=0);
 }
@@ -2979,12 +2979,12 @@ table th[class*="span"],
 .dropdown-menu > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #a41c26;
-  background-image: -moz-linear-gradient(top, #ad1d28, #971923);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ad1d28), to(#971923));
-  background-image: -webkit-linear-gradient(top, #ad1d28, #971923);
-  background-image: -o-linear-gradient(top, #ad1d28, #971923);
-  background-image: linear-gradient(to bottom, #ad1d28, #971923);
+  background-color: #1cafbd;
+  background-image: -moz-linear-gradient(top, #ad1d28, #1cafbd);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ad1d28), to(#1cafbd));
+  background-image: -webkit-linear-gradient(top, #ad1d28, #1cafbd);
+  background-image: -o-linear-gradient(top, #ad1d28, #1cafbd);
+  background-image: linear-gradient(to bottom, #ad1d28, #1cafbd);
   background-repeat: repeat-x;
   outline: 0;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffad1d28', endColorstr='#ff971923', GradientType=0);

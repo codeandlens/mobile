@@ -197,7 +197,7 @@
 
 <form id="report">
     <legend>รายงานเเละระบบพยากรณ์</legend>
-    <table>
+    <table style="background-color: skyblue">
         <!-- <tr>
              <td>รายงานใบกำกับภาษีอย่างย่อ</td>
              <td><a onclick="report_data_invoice()"><img src="img/report_product_data.png" style="height: 30px ; width: 30px ;margin: 3px"></a>&nbsp;

@@ -77,7 +77,7 @@
 
 <form id="manage_data_company">
     <legend>ข้อมูลบริษัท/ห้างร้าน</legend>
-    <table>
+    <table style=" background-color: skyblue">
         <tr>
             <td>ชื่อบริษัท/ห้างร้าน</td>
             <td><input type="text" name="company_name" id="company_name" class="input-large" style="margin: 3px ;  height: 38px" ></td>

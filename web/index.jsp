@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="img/mobile.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="img/mobile.png" rel="shortcut icon" type="image/x-icon" />
         <title>เข้าสู่ระบบ</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -48,18 +48,21 @@
             });
         </script>
     </head>
-    <body style="background-color: #5bc0de">  
-        <div class="container-fluid" style="margin-top: 100px">
+    <body style="background-color:whitesmoke" >  
+        <div class="container-fluid" style="margin-top: 100px" b>
             <div class="row span4" >
-                <div class="span4 offset4 well">
-                    <legend style="font-size: medium ; text-align: center; color: black">กรุณาล็อกอินเพื่อเข้าสู่ระบบ</legend>
+                <div class="span4 offset4 well" style="background-color: snow">
+                    <legend style="font-size: medium ; text-align: center; color: black"><i class="icon-user"></i> กรุณาล็อกอินเพื่อเข้าสู่ระบบ</legend>
                     <div class="alert alert-info" id="error">
-                        <a class="close" data-dismiss="alert" href="#">×</a><font style="color: blue">กรอกข้อมูลเพื่อเข้าสู่ระบบ</font>
+                        <a class="close" data-dismiss="alert" href="#">×</a><font style="color:#00bce1"> <i class="icon-pencil"></i> กรอกข้อมูลเพื่อเข้าสู่ระบบ</font>
                     </div>
                     <br>
-                    <input type="text" id="username" class="span4" name="username" placeholder="ชื่อผู้ใช้งาน">
-                    <input type="password" id="password" class="span4" name="password" placeholder="รหัสผ่าน">
-                    <button type="submit" name="submit" class="btn btn-info btn-block" id="cmdLogin" style="height: 40px ;">เข้าสู่ระบบ</button>
+                    <input type="text" id="username" class=" span4 text-info"  name="username" placeholder="ชื่อผู้ใช้งาน">
+                    <input type="password" id="password" class="span4 text-info" name="password" placeholder="รหัสผ่าน">
+                    <div align="center">
+                        <button type="submit" name="submit" class="btn btn-success btn-medium" id="cmdLogin" style="height: 40px  ;width: 110px;"><i class="icon-hand-up"></i> เข้าสู่ระบบ</button>
+                        <button type="reset" name="cancel" class="btn btn-warning btn-medium"  id="cmdLogin" style="height: 40px ;width: 110px;"><i class="icon-thumbs-down"></i> ยกเลิก</button>
+                    </div>
                 </div>
             </div>
         </div>

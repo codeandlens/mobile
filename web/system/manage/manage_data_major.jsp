@@ -81,7 +81,7 @@
 
 <form id="manage_data_major">
     <legend>จัดการข้อมูลสาขา</legend>
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td>สาขา</td>
             <td><input type="text" name="major_name" id="major_name" class="input-large" style="margin: 3px ;  height: 38px" ></td>

@@ -93,7 +93,7 @@
     <input type="button" class="btn-info btn-medium" value="แสดง" id="show">&nbsp;<input type="button" class="btn-info btn-medium" value="ซ่อน" id="hide">
     <div id="show_data_level">
     </div>
-    <table>
+    <table style="background-color: skyblue">
         <tr>
             <td><input type="hidden" name="level_id" id="level_id" class="input-large" value="1" style="margin: 3px"></td>
         </tr>
